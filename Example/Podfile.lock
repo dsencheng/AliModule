@@ -1,0 +1,20 @@
+PODS:
+  - AliModule (0.1.0):
+    - AliModule/AliPush (= 0.1.0)
+    - AliModule/AliRTC (= 0.1.0)
+  - AliModule/AliPush (0.1.0)
+  - AliModule/AliRTC (0.1.0)
+
+DEPENDENCIES:
+  - AliModule (from `../`)
+
+EXTERNAL SOURCES:
+  AliModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AliModule: 829be7522b4b1abcfb234ac28f3a36e7400b4ddc
+
+PODFILE CHECKSUM: ed3fe1b8cb2592d82e7b34137e7fea317f938371
+
+COCOAPODS: 1.7.3
