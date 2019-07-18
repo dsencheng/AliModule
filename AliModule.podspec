@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.ios.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC', ,'ENABLE_BITCODE' => 'NO', 'ONLY_ACTIVE_ARCH' => 'NO' }
+  s.ios.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC', 'ENABLE_BITCODE' => 'NO', 'ONLY_ACTIVE_ARCH' => 'NO' }
   s.frameworks = 'UIKit','AudioToolbox', 'VideoToolbox','CoreVideo','CoreMedia','OpenGLES','AVFoundation','CoreTelephony','SystemConfiguration','UserNotifications'
   s.library = 'c++', 'resolv'
   # s.dependency 'AFNetworking', '~> 2.3'
