@@ -1,6 +1,6 @@
 {
   "name": "AliModule",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "阿里SDK集成.",
   "description": "集成阿里推送，RTC视频聊天",
   "homepage": "https://github.com/dsencheng/AliModule",
@@ -13,17 +13,17 @@
   },
   "source": {
     "git": "https://github.com/dsencheng/AliModule.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "10.0"
   },
+  "source_files": "AliModule/Classes/**/*.{h,m}",
   "ios": {
     "pod_target_xcconfig": {
-      "OTHER_LDFLAGS": "-lObjC",
-      "ENABLE_BITCODE": false
-    },
-    "vendored_frameworks": "AliModule/Classes/Ali/UTDID.framework"
+      "ENABLE_BITCODE": "NO",
+      "ONLY_ACTIVE_ARCH": "NO"
+    }
   },
   "frameworks": [
     "UIKit",
@@ -34,7 +34,8 @@
     "OpenGLES",
     "AVFoundation",
     "CoreTelephony",
-    "SystemConfiguration"
+    "SystemConfiguration",
+    "UserNotifications"
   ],
   "libraries": [
     "c++",
@@ -42,21 +43,14 @@
   ],
   "subspecs": [
     {
-      "name": "AliRTC",
-      "source_files": "AliModule/Classes/**/*.{h,m}",
+      "name": "AliSDK",
       "ios": {
-        "vendored_frameworks": "AliModule/Classes/Ali/AliRTCSdk.framework"
-      }
-    },
-    {
-      "name": "AliPush",
-      "source_files": "AliModule/Classes/**/*.{h,m}",
-      "ios": {
-        "frameworks": "UserNotifications",
         "vendored_frameworks": [
           "AliModule/Classes/Ali/AlicloudUtils.framework",
           "AliModule/Classes/Ali/CloudPushSDK.framework",
-          "AliModule/Classes/Ali/UTMini.framework"
+          "AliModule/Classes/Ali/UTMini.framework",
+          "AliModule/Classes/Ali/AliRTCSdk.framework",
+          "AliModule/Classes/Ali/UTDID.framework"
         ]
       }
     }

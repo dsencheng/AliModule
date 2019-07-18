@@ -1,8 +1,9 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/AliModule
-ENABLE_BITCODE = false
+ENABLE_BITCODE = NO
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../AliModule/Classes/Ali"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-OTHER_LDFLAGS = $(inherited) -l"ObjC" -l"c++" -l"resolv" -framework "AVFoundation" -framework "AlicloudUtils" -framework "AudioToolbox" -framework "CloudPushSDK" -framework "CoreMedia" -framework "CoreTelephony" -framework "CoreVideo" -framework "OpenGLES" -framework "SystemConfiguration" -framework "UIKit" -framework "UTDID" -framework "UTMini" -framework "UserNotifications" -framework "VideoToolbox"
+ONLY_ACTIVE_ARCH = NO
+OTHER_LDFLAGS = $(inherited) -l"c++" -l"resolv" -framework "AVFoundation" -framework "AlicloudUtils" -framework "AudioToolbox" -framework "CloudPushSDK" -framework "CoreMedia" -framework "CoreTelephony" -framework "CoreVideo" -framework "OpenGLES" -framework "SystemConfiguration" -framework "UIKit" -framework "UTDID" -framework "UTMini" -framework "UserNotifications" -framework "VideoToolbox"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

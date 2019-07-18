@@ -1,9 +1,7 @@
 PODS:
-  - AliModule (0.1.0):
-    - AliModule/AliPush (= 0.1.0)
-    - AliModule/AliRTC (= 0.1.0)
-  - AliModule/AliPush (0.1.0)
-  - AliModule/AliRTC (0.1.0)
+  - AliModule (0.1.1):
+    - AliModule/AliSDK (= 0.1.1)
+  - AliModule/AliSDK (0.1.1)
 
 DEPENDENCIES:
   - AliModule (from `../`)
@@ -13,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AliModule: a888961daeb3edb611d1723a1a46e5995376b8f7
+  AliModule: e3dcd28e6be0819f8e39ba29ec2fe4d509f67760
 
 PODFILE CHECKSUM: ed3fe1b8cb2592d82e7b34137e7fea317f938371
 
