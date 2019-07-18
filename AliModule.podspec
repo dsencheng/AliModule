@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AliModule'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '阿里SDK集成.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'AliModule/Classes/**/*.{h,m}'
-  s.exclude_files = 'AliModule/Classes/**/*.{framework, modulemap, plist}'
+  #s.source_files = 'AliModule/Classes/**/*.{h,m}'
+  #s.exclude_files = 'AliModule/Classes/**/*.{framework, modulemap, plist}'
   # s.resource_bundles = {
   #   'AliModule' => ['AliModule/Assets/*.png']
   # }
@@ -41,14 +41,16 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit','AudioToolbox', 'VideoToolbox','CoreVideo','CoreMedia','OpenGLES','AVFoundation','CoreTelephony','SystemConfiguration'
   s.library = 'c++', 'resolv'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.ios.vendored_framework = 'AliModule/Classes/Ali/UTDID.framework'
+  s.ios.vendored_framework = "AliModule/Classes/Ali/UTDID.framework"
   s.subspec 'AliRTC' do | sub_rtc |
-      sub_rtc.ios.vendored_framework = 'AliModule/Classes/Ali/AliRTCSdk.framework'
+      sub_rtc.source_files = 'AliModule/Classes/**/*.{h,m}'
+      sub_rtc.ios.vendored_framework = "AliModule/Classes/Ali/AliRTCSdk.framework"
       #sub_rtc.source_files = 'AliModule/Classes/RTC/*'
   end
   s.subspec 'AliPush' do | sub_push |
+      sub_push.source_files = 'AliModule/Classes/**/*.{h,m}'
       sub_push.ios.frameworks = 'UserNotifications'
-      sub_push.ios.vendored_frameworks = ['AliModule/Classes/Ali/AlicloudUtils.framework','AliModule/Classes/Ali/CloudPushSDK.framework','AliModule/Classes/Ali/UTMini.framework']
+      sub_push.ios.vendored_frameworks = ["AliModule/Classes/Ali/AlicloudUtils.framework","AliModule/Classes/Ali/CloudPushSDK.framework","AliModule/Classes/Ali/UTMini.framework"]
       
   end
   

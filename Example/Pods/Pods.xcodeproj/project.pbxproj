@@ -7,82 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0250FF26266A3D7FE6312A43ACACEE29 /* RTCSampleRemoteUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A10698A886F95DB2FAE62A20C2E5E1 /* RTCSampleRemoteUserModel.m */; };
+		0250FF26266A3D7FE6312A43ACACEE29 /* RTCSampleRemoteUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4215E6CCFFD80ADC76D22C393AC21193 /* RTCSampleRemoteUserModel.m */; };
 		061E19864BEFE599F25DF685D7EEA764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1272D06F2783FDD7A1458C952947626F /* Foundation.framework */; };
-		0633EDA2ACBB9F45C1D23771F77326ED /* UTSecuritySDKRequestAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = F2A0B8B3E905FD5F84E858A1330FA896 /* UTSecuritySDKRequestAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		096D6B7B9B16B8904DEB0C4BBBF10FAB /* AliModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2A17A29C7F6CF281B3C76C2CC016EC /* AliModule-dummy.m */; };
-		0DAB6386D3564FB372702B04CBEF84ED /* CloudPushSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A87EFDBA60AB9C02E95D5EC9B578E4 /* CloudPushSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0633EDA2ACBB9F45C1D23771F77326ED /* UTSecuritySDKRequestAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 30ED40003EC0FCFF8CFD67AB73C4C6B5 /* UTSecuritySDKRequestAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		096D6B7B9B16B8904DEB0C4BBBF10FAB /* AliModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9710D19179084DED1A0CC55F6250F4C1 /* AliModule-dummy.m */; };
+		0DAB6386D3564FB372702B04CBEF84ED /* CloudPushSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BAC9DA8FA5CBF382755B0715C25A4D8 /* CloudPushSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DBCDF245514A54AEE9C009B1127A042 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475E7D9436C58372DAD5AB18FCE9ADF5 /* CoreMedia.framework */; };
-		0F436A44CBF4EBACED4C93308A773703 /* AidProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8C3B68C1B16DE0B1C516A662EA7DEC /* AidProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14765FDD300C50CE73865176CDBA54ED /* AppMonitorMeasureValueSet.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8871E603BF2C20F05DDF80218A2E11 /* AppMonitorMeasureValueSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1987709BE3690714C8E2B262F4E23FF8 /* UTPageHitBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8643F58EA64DE850B9A2420B293C01BC /* UTPageHitBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A1016AADC4C5B018E2862FCF73E38CD /* AppMonitorStat.h in Headers */ = {isa = PBXBuildFile; fileRef = 7655D44D86EC6F5AB66B1E81088614CD /* AppMonitorStat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D1FFB7D649F0824B0AB677CECF39A4E /* UTTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FB881A1179905B6238B2209BC0CBDE3 /* UTTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F436A44CBF4EBACED4C93308A773703 /* AidProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A9F838F9AE695F30EB584396B5F04D42 /* AidProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14765FDD300C50CE73865176CDBA54ED /* AppMonitorMeasureValueSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 122B934D9AC27B6E8A8444FB2F8F38D1 /* AppMonitorMeasureValueSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1987709BE3690714C8E2B262F4E23FF8 /* UTPageHitBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 795CDC81DD60D19EC17E7D3BDA9465D6 /* UTPageHitBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A1016AADC4C5B018E2862FCF73E38CD /* AppMonitorStat.h in Headers */ = {isa = PBXBuildFile; fileRef = E7CD76CB87FFF53F3542B996B906A160 /* AppMonitorStat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D1FFB7D649F0824B0AB677CECF39A4E /* UTTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 677A5197BE121EACDD3299358EE914FE /* UTTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2070B6019C555D05F140CF1ED314493F /* Pods-AliModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 641F2FD19C757280DB97D244A0B73461 /* Pods-AliModule_Tests-dummy.m */; };
-		2EDB2C17B7FFFCF18A16F7A695A53579 /* EMASSecurityModeCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B52ABE78678F7A9213DE5654DC63D3 /* EMASSecurityModeCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FFC2E11D64D942139324EBE2535E569 /* UTIRequestAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = B829CABFB71CDB7E83B205575DBE86A8 /* UTIRequestAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EDB2C17B7FFFCF18A16F7A695A53579 /* EMASSecurityModeCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B7FF5A9999E07F0C6E29C78D072EF8 /* EMASSecurityModeCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FFC2E11D64D942139324EBE2535E569 /* UTIRequestAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A140793AFADEFF3BAFFAD1A265A9EDB /* UTIRequestAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		398D6D17DBD4D656E775B446FE478478 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0B63F3988893A8612B217C35D1710F /* CoreVideo.framework */; };
-		3D756BBC915C47813657DD9E857B6906 /* AppMonitorDimensionValueSet.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2297869EE0A343F76B0F61C73A3AC8 /* AppMonitorDimensionValueSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D756BBC915C47813657DD9E857B6906 /* AppMonitorDimensionValueSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 6478D0CE79163C975B39BE96104DD72D /* AppMonitorDimensionValueSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DF66F438A5B1FBB999F6DA1DFDB7E03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1272D06F2783FDD7A1458C952947626F /* Foundation.framework */; };
-		3F8E1E2311E6FC928DFEB9F33FFB74DB /* UT.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF15029AC562C9ED9F1449C7034323F /* UT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		414AC83ECCFE840B25740D583865BAAE /* AppMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C87EDD5EDF6406C6F8509955B1DBC8 /* AppMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44819422FC4201B229AD5D1E70C537D9 /* RTCSampleRemoteUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BE7A12D9EDAEA842C1C3160F98A096 /* RTCSampleRemoteUserManager.m */; };
-		490E47023E698092239BA844EEDDF021 /* CCPSysMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A742A2ED4321EE82A2C2A4392CBFC9 /* CCPSysMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F8E1E2311E6FC928DFEB9F33FFB74DB /* UT.h in Headers */ = {isa = PBXBuildFile; fileRef = 048EAF746D13BD4D43A54FF5228704AA /* UT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		414AC83ECCFE840B25740D583865BAAE /* AppMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5605A45A3385570BD8CFB6A58DCA2A5F /* AppMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44819422FC4201B229AD5D1E70C537D9 /* RTCSampleRemoteUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A137D4E4C38D661123293BB3A2E4EFE /* RTCSampleRemoteUserManager.m */; };
+		490E47023E698092239BA844EEDDF021 /* CCPSysMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0DC4B40C1598EA69399ECE3DDA8FD3 /* CCPSysMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AFD6F164DF11D4C8F83CAAB9AA2274F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01D53B54D050927DDC51163E466F0C7 /* UIKit.framework */; };
-		4BAF7743A9D625FD7521B5EEBFED4CE9 /* AppMonitorDimensionSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 3502B8E8D595EB87B734A461C40F0271 /* AppMonitorDimensionSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EACC540229583AE8909239962829B03 /* RTCSampleChatViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 61AF0892C95ED63CC7398E568B35830B /* RTCSampleChatViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5490C8EA01D889499904244A8470B47D /* UTHitBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 07CDAA17EFA15A340C44E78CCA9DD978 /* UTHitBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BAF7743A9D625FD7521B5EEBFED4CE9 /* AppMonitorDimensionSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F9FEAF02967283203D40DBC8674C5C28 /* AppMonitorDimensionSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EACC540229583AE8909239962829B03 /* RTCSampleChatViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9415D80FABBF9CFFD0D756775E6A37 /* RTCSampleChatViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5490C8EA01D889499904244A8470B47D /* UTHitBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A69096BF4C3B37836239BD1D0675FE2E /* UTHitBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		585173EE5EDE12E340F3A9B23E8D673D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D813D525EF5D38138CE44182C9EEED /* OpenGLES.framework */; };
-		589F026B184EB6541D60156A1224DF1C /* UTBaseRequestAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C17E45B72A5510322D3DFFD8602A55 /* UTBaseRequestAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		589F026B184EB6541D60156A1224DF1C /* UTBaseRequestAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 30CF3F602CF9D478CE52E72227C6882A /* UTBaseRequestAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58E9B2D95EEC5C10BA6533B6E500FEB3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AAA6B67888FA346E526C2AB3826D80B /* AVFoundation.framework */; };
-		5C716F4E38D6F7494B94FEB2168F7026 /* EMASTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E488802689AFB9FBC94588705C8889F /* EMASTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64313094D1635E8284ACAE839CCDABC9 /* CloudPushCallbackResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A502DA0822D30BAAE8B3C72EF9CAE3C /* CloudPushCallbackResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66517BE8AF0551A664283D3FA3766D0E /* UTCustomHitBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 380C96FBF8ECA8EBB02F3D6062239DC7 /* UTCustomHitBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BC5663ADABF434FE5526C1DCDCE9439 /* AlicloudHTTPDNSMini.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF17D920B4FC92EC8DB682417336FD2 /* AlicloudHTTPDNSMini.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EC1BD13028AF29F7AB31AC4C9A9C15F /* EMASSecurityModeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CB650F62A61059BDEA3B9C1D09EF5E /* EMASSecurityModeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C716F4E38D6F7494B94FEB2168F7026 /* EMASTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4317CD61531ED69D2A8F934FB132E0EA /* EMASTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64313094D1635E8284ACAE839CCDABC9 /* CloudPushCallbackResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 024857736FF0095409BE2F9A16653C8A /* CloudPushCallbackResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66517BE8AF0551A664283D3FA3766D0E /* UTCustomHitBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F66874762EAE2E5FA664A4AE83C1D0A /* UTCustomHitBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BC5663ADABF434FE5526C1DCDCE9439 /* AlicloudHTTPDNSMini.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EEB26253A668AD5BA2B0CF4B67F1267 /* AlicloudHTTPDNSMini.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EC1BD13028AF29F7AB31AC4C9A9C15F /* EMASSecurityModeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C93356A903096DB5CF955ED8117A47F2 /* EMASSecurityModeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		714CFCD55523B04C0E257372BD51923B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1272D06F2783FDD7A1458C952947626F /* Foundation.framework */; };
-		71A521988BBBF02697E096FB7E342603 /* UIViewController+RTCSampleAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 905106F6EA3ABA71B07A4011453461A8 /* UIViewController+RTCSampleAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72C0662EA3E27FDA69A8FBB415FEF8D1 /* AntilockBrakeSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 655FDDCAF58409A23E2021B098972F00 /* AntilockBrakeSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72FDAAADECD939E361A1DB16B0DA1567 /* AppMonitorAlarm.h in Headers */ = {isa = PBXBuildFile; fileRef = 6268BBCDC348E92B206D86925D4CB83E /* AppMonitorAlarm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		77514014F25731B45AB3D24FC9CA0048 /* RTCSampleChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26F4DA7305071142D976933D62EE85 /* RTCSampleChatViewController.m */; };
+		71A521988BBBF02697E096FB7E342603 /* UIViewController+RTCSampleAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 80D1CF4731BE7752225711474EC3FE57 /* UIViewController+RTCSampleAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72C0662EA3E27FDA69A8FBB415FEF8D1 /* AntilockBrakeSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B61BBE56512F4A5DC34F0621CB7F54 /* AntilockBrakeSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72FDAAADECD939E361A1DB16B0DA1567 /* AppMonitorAlarm.h in Headers */ = {isa = PBXBuildFile; fileRef = 61A6693A05F95E7C17E965BED1D30CAB /* AppMonitorAlarm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77514014F25731B45AB3D24FC9CA0048 /* RTCSampleChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DD70DA687D2AE4688F0A87D4ABC793 /* RTCSampleChatViewController.m */; };
 		77C13A049CD139C73EBB71C1E3135097 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED2601384E60C39C848BDE97F477815 /* UserNotifications.framework */; };
-		7A9E8F450C8E2BE0D6B9889B18C8C39F /* AlicloudReport.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CBBE666B3B91188A3E79476E38C2451 /* AlicloudReport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		847DCBD5A3DD98DA7979D8F391782E36 /* AlicloudTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = E641F4B13801A31DE8A45A491819D8CB /* AlicloudTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84E98A67294C03030C51DDC5FB0F2907 /* AlicloudReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 563DD602D36670E06CF6D2BE9E174DAF /* AlicloudReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		859FA648BC68E2F3DDCE5252B9066487 /* AppMonitorDimension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC27873EBF1FB1250D07E663E7CC298 /* AppMonitorDimension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		881352CACEFC4B1A639FC4BB1007954D /* AppMonitorBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9D4F78D9BE28EE805DF9BE3DE49488 /* AppMonitorBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A9E8F450C8E2BE0D6B9889B18C8C39F /* AlicloudReport.h in Headers */ = {isa = PBXBuildFile; fileRef = 18CA68E15DDC26313EC0F0DB596E8921 /* AlicloudReport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		847DCBD5A3DD98DA7979D8F391782E36 /* AlicloudTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = C79AAD48A570180C6C3832F4107F30B5 /* AlicloudTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84E98A67294C03030C51DDC5FB0F2907 /* AlicloudReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 439BA28C1DCEEC87E5E681ECD67EF89E /* AlicloudReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		859FA648BC68E2F3DDCE5252B9066487 /* AppMonitorDimension.h in Headers */ = {isa = PBXBuildFile; fileRef = AE507862268888E2D0CB448C4BE0AA25 /* AppMonitorDimension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		881352CACEFC4B1A639FC4BB1007954D /* AppMonitorBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C6C3165D49069E6B15CB0FA9007089 /* AppMonitorBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AB3651FA3A3FA0C2CCDC32255492856 /* Pods-AliModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A881FAE62A90C0DFE7C421CE107D9D8 /* Pods-AliModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AEB19B514B8E053F18F4FAB7955135D /* AppMonitorCounter.h in Headers */ = {isa = PBXBuildFile; fileRef = F1737FA3E9D7E82799CA50F4B2A88430 /* AppMonitorCounter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		933E9074FF5295DE52FECB2512A52C82 /* AlicloudTrackerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BB5EE8B90E3C0C1CB4A458291D06E738 /* AlicloudTrackerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9498867D33AB39DA30750E02305E152C /* ABSBootingProtection.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BBBCA4796373D63D731765A240E90FE /* ABSBootingProtection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AEB19B514B8E053F18F4FAB7955135D /* AppMonitorCounter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D7CEA293E70BE5493F930B85D348961 /* AppMonitorCounter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		933E9074FF5295DE52FECB2512A52C82 /* AlicloudTrackerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0E17F21613D5F2F4EFCA5836AC6D22 /* AlicloudTrackerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9498867D33AB39DA30750E02305E152C /* ABSBootingProtection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C1E5B9973A58A63261D5E784B5C4668 /* ABSBootingProtection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96942DB130305F1BCB842D40306B71B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E26DA8C8C3823E6A1BA55718E21F76 /* SystemConfiguration.framework */; };
-		9EE0377957F9B4C4347049B67977D961 /* RTCSampleRemoteUserManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FC952847FBC163CCEBA570F9F1BB1CCB /* RTCSampleRemoteUserManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4078419EE639DD08BA473C991498D7B /* UTAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 686A0172419A31B4B0BA09AB640827D6 /* UTAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EE0377957F9B4C4347049B67977D961 /* RTCSampleRemoteUserManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A3946748CD6783C0F6DE703DF96BB4 /* RTCSampleRemoteUserManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4078419EE639DD08BA473C991498D7B /* UTAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBEAC2A378B84D707C0978B9BF32E85 /* UTAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFEC3F03D0A597FDDE46334F4567E3E2 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637C78F9B8283A724AE067D68F2492B5 /* VideoToolbox.framework */; };
-		B1F05B41064EBBB34B379018785F2C6C /* UTICrashCaughtListener.h in Headers */ = {isa = PBXBuildFile; fileRef = A74D4AF83780878AE22A4C10D632411F /* UTICrashCaughtListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6902C1F174C311C885BFCD8A090DA23 /* AliRtcEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F831D01B47EF5AEAD6B042ED2FD44E75 /* AliRtcEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B941862714C5FEBD0612ABD1009B03A6 /* AlicloudIPv6Adapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BAA50BD8DA2CA23A26A87BC4AD099A /* AlicloudIPv6Adapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C09BC64D567AE8B2A93798C72A899BF9 /* ABSUncaughtExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D794DA153CC66321410D5A612D28B6F /* ABSUncaughtExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2C8454BD084E60AC59FDA853BEC92A3 /* MPGerneralDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 635BE35FA47AF61488CCA58B6C87E010 /* MPGerneralDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1F05B41064EBBB34B379018785F2C6C /* UTICrashCaughtListener.h in Headers */ = {isa = PBXBuildFile; fileRef = E71B49D4D76A9CA7F85D0CC6765C8FAF /* UTICrashCaughtListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6902C1F174C311C885BFCD8A090DA23 /* AliRtcEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5078BBE35DF665550F30562EDF34449A /* AliRtcEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B941862714C5FEBD0612ABD1009B03A6 /* AlicloudIPv6Adapter.h in Headers */ = {isa = PBXBuildFile; fileRef = EBAE966A54DDB5E7B812BE174F9193E1 /* AlicloudIPv6Adapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C09BC64D567AE8B2A93798C72A899BF9 /* ABSUncaughtExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E41D927A3B28A25DDC4DABFBF338BCC /* ABSUncaughtExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C8454BD084E60AC59FDA853BEC92A3 /* MPGerneralDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = FA407E74FD311A5553B7F373A8AD5FB0 /* MPGerneralDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C58DCE0238A1E2CE8D57186895F8AB8D /* Pods-AliModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D27F04677B2201BAE8FC8CDA4076FEE /* Pods-AliModule_Example-dummy.m */; };
 		C69823D21C712912D4EA6CA6DB0D6B0C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFAE26983077DDF1A1BAA887C9BEA2E /* AudioToolbox.framework */; };
-		C6D2CE4B6CF97A34AC6C0F525DD3A30A /* AppMonitorTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB5D5AE297B829C9A55C9CF958A05F1 /* AppMonitorTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6F6ABA587EB2939A31599BC650D40F5 /* ABSUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2391D44D30C1DE45171E07DB9E2679 /* ABSUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C72FF3DE8E54EE5365F2F8422CE7AD87 /* UtilLog.h in Headers */ = {isa = PBXBuildFile; fileRef = E1746E9B94B977275380498E6384D1FB /* UtilLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA0A6F08654F4E68B477AFA77A3E15F6 /* RTCSampleRemoteUserModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5300BE1334361626486CF47676E4FFD7 /* RTCSampleRemoteUserModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC454BD62854A25E6DBBBBA45EA029A9 /* UTOirginalCustomHitBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA8564BE97AC4127D3F6B8A37F0A075 /* UTOirginalCustomHitBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6D2CE4B6CF97A34AC6C0F525DD3A30A /* AppMonitorTable.h in Headers */ = {isa = PBXBuildFile; fileRef = A799A5ACE41AA56BFE86C6AD4DC5B205 /* AppMonitorTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6F6ABA587EB2939A31599BC650D40F5 /* ABSUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A21A07B19678BE56314022D989D4BAA8 /* ABSUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C72FF3DE8E54EE5365F2F8422CE7AD87 /* UtilLog.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8997845140B0BF991B8D001EB6B93E /* UtilLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA0A6F08654F4E68B477AFA77A3E15F6 /* RTCSampleRemoteUserModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF3A24B6A0006BC2B188EB2C300D6C3 /* RTCSampleRemoteUserModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC454BD62854A25E6DBBBBA45EA029A9 /* UTOirginalCustomHitBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D0F0F4BDA1D438D8A0B43DB464C77A1 /* UTOirginalCustomHitBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5AAB9A470A43A764C6056B588CEAD5D /* Pods-AliModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA1802EFF33786971216CFFF65AE797 /* Pods-AliModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5E449F1128E13E49E083D246146E6DD /* AlicloudUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D5E269ECACB5EAA4D515AFD31A26A1 /* AlicloudUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA26BFDCA3CF5FCCCE0A45816609833F /* UTDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = C6107088CC06CD50232278CDEA9F75E2 /* UTDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF2CA2957219ECB437E9F76E2E8976A5 /* EMASOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86AC1B815DC4DCBC1E385031E02C1069 /* EMASOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5E449F1128E13E49E083D246146E6DD /* AlicloudUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E6A1234C292E7CB23983BB1D6FABA4 /* AlicloudUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA26BFDCA3CF5FCCCE0A45816609833F /* UTDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = A569D1E6742275C776B594060AB60238 /* UTDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF2CA2957219ECB437E9F76E2E8976A5 /* EMASOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C5B5A587AA24A85E0A4679EBD64499 /* EMASOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E861DD848BD32D830DA05C3E0405096D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A21D12C43FED0147414C3540CB655C8 /* CoreTelephony.framework */; };
-		EDD680E688A7F93C0851FA6AC66B76FD /* AliRTCSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 31B82A43D57780419F4F933CDFB9ED1D /* AliRTCSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F51BB2AB78B2E6E42E16915E473DF3ED /* AliModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B842205C8C35FA173B091675C301E47 /* AliModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F80E68CC3D5112CA6B5DC08143F89F4E /* AppMonitorMeasureValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F52D3AFE35A7DD6879654BDD778D1C /* AppMonitorMeasureValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB974C0A1216D1FD6E152FC1350181D8 /* AppMonitorMeasureSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3FCA3E063CF2BE63EF27A277B59987 /* AppMonitorMeasureSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDCF30B1AE5B780BD8F6585334830C7F /* AppMonitorMeasure.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DEF7909D3758B83C64D335AB614503 /* AppMonitorMeasure.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE4EB1DC83CA9D1731AA73C4BAB1E4EF /* UIViewController+RTCSampleAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDF38515B9E15F99675F44FED4E5CD3 /* UIViewController+RTCSampleAlert.m */; };
-		FE73E1CC9876F0EA03DDE62515D3C5B0 /* EMASBeaconService.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B854983061A75AE4CE17FA7E29F5F99 /* EMASBeaconService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDD680E688A7F93C0851FA6AC66B76FD /* AliRTCSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C0A49D7E46208FC0D1407F08AE045C /* AliRTCSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F51BB2AB78B2E6E42E16915E473DF3ED /* AliModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD890A8F4AEBE264D35E70083358A8DB /* AliModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80E68CC3D5112CA6B5DC08143F89F4E /* AppMonitorMeasureValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 28662C990EFEAB19CC3E45DF297BA1A1 /* AppMonitorMeasureValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB974C0A1216D1FD6E152FC1350181D8 /* AppMonitorMeasureSet.h in Headers */ = {isa = PBXBuildFile; fileRef = B4CBDE5E06810822CAAA4AB973DC7B57 /* AppMonitorMeasureSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDCF30B1AE5B780BD8F6585334830C7F /* AppMonitorMeasure.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6622695003D21B2EC44DDF8C6E43A5 /* AppMonitorMeasure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE4EB1DC83CA9D1731AA73C4BAB1E4EF /* UIViewController+RTCSampleAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F1457DB6C7A594CBD3C15D801528B1 /* UIViewController+RTCSampleAlert.m */; };
+		FE73E1CC9876F0EA03DDE62515D3C5B0 /* EMASBeaconService.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC80F5052554A92A694E09EAB7DAF97 /* EMASBeaconService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,106 +104,107 @@
 
 /* Begin PBXFileReference section */
 		0187FA405064EC68FB95C2C09A75387F /* Pods-AliModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliModule_Example-frameworks.sh"; sourceTree = "<group>"; };
-		04B52ABE78678F7A9213DE5654DC63D3 /* EMASSecurityModeCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMASSecurityModeCommon.h; sourceTree = "<group>"; };
-		07CDAA17EFA15A340C44E78CCA9DD978 /* UTHitBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTHitBuilder.h; sourceTree = "<group>"; };
+		024857736FF0095409BE2F9A16653C8A /* CloudPushCallbackResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudPushCallbackResult.h; sourceTree = "<group>"; };
+		048EAF746D13BD4D43A54FF5228704AA /* UT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UT.h; sourceTree = "<group>"; };
 		0A21D12C43FED0147414C3540CB655C8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		0E353395683F285BD6915458306877DA /* CloudPushSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudPushSDK.framework; path = AliModule/Classes/Ali/CloudPushSDK.framework; sourceTree = "<group>"; };
+		122B934D9AC27B6E8A8444FB2F8F38D1 /* AppMonitorMeasureValueSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorMeasureValueSet.h; sourceTree = "<group>"; };
 		1272D06F2783FDD7A1458C952947626F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		18C6C3165D49069E6B15CB0FA9007089 /* AppMonitorBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorBase.h; sourceTree = "<group>"; };
+		18CA68E15DDC26313EC0F0DB596E8921 /* AlicloudReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlicloudReport.h; sourceTree = "<group>"; };
+		18D163CF7B559FC2967D5E358382282F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1A881FAE62A90C0DFE7C421CE107D9D8 /* Pods-AliModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliModule_Example-umbrella.h"; sourceTree = "<group>"; };
-		1F9D4F78D9BE28EE805DF9BE3DE49488 /* AppMonitorBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorBase.h; sourceTree = "<group>"; };
-		25F52D3AFE35A7DD6879654BDD778D1C /* AppMonitorMeasureValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorMeasureValue.h; sourceTree = "<group>"; };
+		225AA2C71D02E358244A0DA62CE0C0DC /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = AliModule/Classes/Ali/UTDID.framework; sourceTree = "<group>"; };
 		27E647AABDF18A046BD31A61802B66B8 /* Pods-AliModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2DC27873EBF1FB1250D07E663E7CC298 /* AppMonitorDimension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorDimension.h; sourceTree = "<group>"; };
-		31B82A43D57780419F4F933CDFB9ED1D /* AliRTCSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliRTCSdk.h; sourceTree = "<group>"; };
-		3502B8E8D595EB87B734A461C40F0271 /* AppMonitorDimensionSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorDimensionSet.h; sourceTree = "<group>"; };
-		380C96FBF8ECA8EBB02F3D6062239DC7 /* UTCustomHitBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTCustomHitBuilder.h; sourceTree = "<group>"; };
+		28662C990EFEAB19CC3E45DF297BA1A1 /* AppMonitorMeasureValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorMeasureValue.h; sourceTree = "<group>"; };
+		2BF3A24B6A0006BC2B188EB2C300D6C3 /* RTCSampleRemoteUserModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCSampleRemoteUserModel.h; sourceTree = "<group>"; };
+		30CF3F602CF9D478CE52E72227C6882A /* UTBaseRequestAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTBaseRequestAuthentication.h; sourceTree = "<group>"; };
+		30ED40003EC0FCFF8CFD67AB73C4C6B5 /* UTSecuritySDKRequestAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTSecuritySDKRequestAuthentication.h; sourceTree = "<group>"; };
+		32C96A39315B0531DBC02F46F2768126 /* AlicloudUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlicloudUtils.framework; path = AliModule/Classes/Ali/AlicloudUtils.framework; sourceTree = "<group>"; };
+		33B7FF5A9999E07F0C6E29C78D072EF8 /* EMASSecurityModeCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMASSecurityModeCommon.h; sourceTree = "<group>"; };
 		3939D20590D743AFD507DB3DF10F4766 /* Pods-AliModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3DA8564BE97AC4127D3F6B8A37F0A075 /* UTOirginalCustomHitBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTOirginalCustomHitBuilder.h; sourceTree = "<group>"; };
+		3D0F0F4BDA1D438D8A0B43DB464C77A1 /* UTOirginalCustomHitBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTOirginalCustomHitBuilder.h; sourceTree = "<group>"; };
+		3E41D927A3B28A25DDC4DABFBF338BCC /* ABSUncaughtExceptionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABSUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		3FBEAC2A378B84D707C0978B9BF32E85 /* UTAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTAnalytics.h; sourceTree = "<group>"; };
+		4215E6CCFFD80ADC76D22C393AC21193 /* RTCSampleRemoteUserModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RTCSampleRemoteUserModel.m; sourceTree = "<group>"; };
+		4317CD61531ED69D2A8F934FB132E0EA /* EMASTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMASTools.h; sourceTree = "<group>"; };
+		439BA28C1DCEEC87E5E681ECD67EF89E /* AlicloudReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlicloudReachabilityManager.h; sourceTree = "<group>"; };
 		46886BBA8C0BAEC9EB8B6957A90A17AA /* Pods_AliModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AliModule_Example.framework; path = "Pods-AliModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46A6560B169EF1482A0B8414252921A6 /* CloudPushSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudPushSDK.framework; path = AliModule/Classes/Ali/CloudPushSDK.framework; sourceTree = "<group>"; };
-		475CE61F934BCA4998CD70B8DBA974E0 /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTMini.framework; path = AliModule/Classes/Ali/UTMini.framework; sourceTree = "<group>"; };
 		475E7D9436C58372DAD5AB18FCE9ADF5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
 		477EA8207424305BDF365E9262ABCA8C /* Pods_AliModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AliModule_Tests.framework; path = "Pods-AliModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D794DA153CC66321410D5A612D28B6F /* ABSUncaughtExceptionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABSUncaughtExceptionHandler.h; sourceTree = "<group>"; };
-		5300BE1334361626486CF47676E4FFD7 /* RTCSampleRemoteUserModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCSampleRemoteUserModel.h; sourceTree = "<group>"; };
-		563DD602D36670E06CF6D2BE9E174DAF /* AlicloudReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlicloudReachabilityManager.h; sourceTree = "<group>"; };
+		47A3946748CD6783C0F6DE703DF96BB4 /* RTCSampleRemoteUserManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCSampleRemoteUserManager.h; sourceTree = "<group>"; };
+		4A140793AFADEFF3BAFFAD1A265A9EDB /* UTIRequestAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTIRequestAuthentication.h; sourceTree = "<group>"; };
+		4BAC9DA8FA5CBF382755B0715C25A4D8 /* CloudPushSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudPushSDK.h; sourceTree = "<group>"; };
+		5078BBE35DF665550F30562EDF34449A /* AliRtcEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliRtcEngine.h; sourceTree = "<group>"; };
+		50E6A1234C292E7CB23983BB1D6FABA4 /* AlicloudUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlicloudUtils.h; sourceTree = "<group>"; };
+		51F1457DB6C7A594CBD3C15D801528B1 /* UIViewController+RTCSampleAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RTCSampleAlert.m"; sourceTree = "<group>"; };
+		5605A45A3385570BD8CFB6A58DCA2A5F /* AppMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitor.h; sourceTree = "<group>"; };
 		57D813D525EF5D38138CE44182C9EEED /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
-		5B842205C8C35FA173B091675C301E47 /* AliModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliModule-umbrella.h"; sourceTree = "<group>"; };
-		5BBBCA4796373D63D731765A240E90FE /* ABSBootingProtection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABSBootingProtection.h; sourceTree = "<group>"; };
-		5CB5D5AE297B829C9A55C9CF958A05F1 /* AppMonitorTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorTable.h; sourceTree = "<group>"; };
-		5E2391D44D30C1DE45171E07DB9E2679 /* ABSUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABSUtil.h; sourceTree = "<group>"; };
 		5FA1802EFF33786971216CFFF65AE797 /* Pods-AliModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliModule_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5FB881A1179905B6238B2209BC0CBDE3 /* UTTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTTracker.h; sourceTree = "<group>"; };
-		61471CCD7618DEFBF454A5AC2325B6B2 /* AliRTCSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliRTCSdk.framework; path = AliModule/Classes/Ali/AliRTCSdk.framework; sourceTree = "<group>"; };
-		61AF0892C95ED63CC7398E568B35830B /* RTCSampleChatViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCSampleChatViewController.h; sourceTree = "<group>"; };
-		6268BBCDC348E92B206D86925D4CB83E /* AppMonitorAlarm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorAlarm.h; sourceTree = "<group>"; };
-		62DEF7909D3758B83C64D335AB614503 /* AppMonitorMeasure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorMeasure.h; sourceTree = "<group>"; };
-		635BE35FA47AF61488CCA58B6C87E010 /* MPGerneralDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPGerneralDefinition.h; sourceTree = "<group>"; };
+		61A6693A05F95E7C17E965BED1D30CAB /* AppMonitorAlarm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorAlarm.h; sourceTree = "<group>"; };
 		637C78F9B8283A724AE067D68F2492B5 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		641F2FD19C757280DB97D244A0B73461 /* Pods-AliModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliModule_Tests-dummy.m"; sourceTree = "<group>"; };
-		655FDDCAF58409A23E2021B098972F00 /* AntilockBrakeSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AntilockBrakeSystem.h; sourceTree = "<group>"; };
-		65A10698A886F95DB2FAE62A20C2E5E1 /* RTCSampleRemoteUserModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RTCSampleRemoteUserModel.m; sourceTree = "<group>"; };
-		66A742A2ED4321EE82A2C2A4392CBFC9 /* CCPSysMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CCPSysMessage.h; sourceTree = "<group>"; };
-		686A0172419A31B4B0BA09AB640827D6 /* UTAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTAnalytics.h; sourceTree = "<group>"; };
-		6A502DA0822D30BAAE8B3C72EF9CAE3C /* CloudPushCallbackResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudPushCallbackResult.h; sourceTree = "<group>"; };
-		6B854983061A75AE4CE17FA7E29F5F99 /* EMASBeaconService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMASBeaconService.h; sourceTree = "<group>"; };
-		6DF17D920B4FC92EC8DB682417336FD2 /* AlicloudHTTPDNSMini.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlicloudHTTPDNSMini.h; sourceTree = "<group>"; };
-		72BAA50BD8DA2CA23A26A87BC4AD099A /* AlicloudIPv6Adapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlicloudIPv6Adapter.h; sourceTree = "<group>"; };
-		73BE7A12D9EDAEA842C1C3160F98A096 /* RTCSampleRemoteUserManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RTCSampleRemoteUserManager.m; sourceTree = "<group>"; };
-		73D5E269ECACB5EAA4D515AFD31A26A1 /* AlicloudUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlicloudUtils.h; sourceTree = "<group>"; };
-		7655D44D86EC6F5AB66B1E81088614CD /* AppMonitorStat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorStat.h; sourceTree = "<group>"; };
+		6478D0CE79163C975B39BE96104DD72D /* AppMonitorDimensionValueSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorDimensionValueSet.h; sourceTree = "<group>"; };
+		677A5197BE121EACDD3299358EE914FE /* UTTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTTracker.h; sourceTree = "<group>"; };
+		6C1E5B9973A58A63261D5E784B5C4668 /* ABSBootingProtection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABSBootingProtection.h; sourceTree = "<group>"; };
+		72B61BBE56512F4A5DC34F0621CB7F54 /* AntilockBrakeSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AntilockBrakeSystem.h; sourceTree = "<group>"; };
+		795CDC81DD60D19EC17E7D3BDA9465D6 /* UTPageHitBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTPageHitBuilder.h; sourceTree = "<group>"; };
 		7A1EF6CBEFCDC70CC612BE110820EAAE /* Pods-AliModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7A6230139B20ACEDFDD13322C740CAE2 /* AliModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AliModule.framework; path = AliModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D9E4F07A76E592EAB096B5C53FDE203 /* AliModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AliModule-Info.plist"; sourceTree = "<group>"; };
-		8643F58EA64DE850B9A2420B293C01BC /* UTPageHitBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTPageHitBuilder.h; sourceTree = "<group>"; };
-		86AC1B815DC4DCBC1E385031E02C1069 /* EMASOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMASOptions.h; sourceTree = "<group>"; };
+		7D929A3596302046C5ADD71F88471F2A /* AliModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AliModule.modulemap; sourceTree = "<group>"; };
+		7F66874762EAE2E5FA664A4AE83C1D0A /* UTCustomHitBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTCustomHitBuilder.h; sourceTree = "<group>"; };
+		80D1CF4731BE7752225711474EC3FE57 /* UIViewController+RTCSampleAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RTCSampleAlert.h"; sourceTree = "<group>"; };
 		8861B5B46142162E7AB0081057BD8CA3 /* Pods-AliModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8A137D4E4C38D661123293BB3A2E4EFE /* RTCSampleRemoteUserManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RTCSampleRemoteUserManager.m; sourceTree = "<group>"; };
 		8AAA6B67888FA346E526C2AB3826D80B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		8E488802689AFB9FBC94588705C8889F /* EMASTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMASTools.h; sourceTree = "<group>"; };
-		905106F6EA3ABA71B07A4011453461A8 /* UIViewController+RTCSampleAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RTCSampleAlert.h"; sourceTree = "<group>"; };
-		91C17E45B72A5510322D3DFFD8602A55 /* UTBaseRequestAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTBaseRequestAuthentication.h; sourceTree = "<group>"; };
-		9B3FCA3E063CF2BE63EF27A277B59987 /* AppMonitorMeasureSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorMeasureSet.h; sourceTree = "<group>"; };
-		9B8C3B68C1B16DE0B1C516A662EA7DEC /* AidProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AidProtocol.h; sourceTree = "<group>"; };
-		9CBBE666B3B91188A3E79476E38C2451 /* AlicloudReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlicloudReport.h; sourceTree = "<group>"; };
+		8D7CEA293E70BE5493F930B85D348961 /* AppMonitorCounter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorCounter.h; sourceTree = "<group>"; };
+		8EEB26253A668AD5BA2B0CF4B67F1267 /* AlicloudHTTPDNSMini.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlicloudHTTPDNSMini.h; sourceTree = "<group>"; };
+		94DD70DA687D2AE4688F0A87D4ABC793 /* RTCSampleChatViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RTCSampleChatViewController.m; sourceTree = "<group>"; };
+		96954FC1E508C39584773C3D12385257 /* AliModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AliModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9710D19179084DED1A0CC55F6250F4C1 /* AliModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AliModule-dummy.m"; sourceTree = "<group>"; };
+		985162EBA67E3B6D465EBBD77B75DF5A /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTMini.framework; path = AliModule/Classes/Ali/UTMini.framework; sourceTree = "<group>"; };
+		99C0A49D7E46208FC0D1407F08AE045C /* AliRTCSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliRTCSdk.h; sourceTree = "<group>"; };
+		9BCA8BBD0BCBD9F91ACFCCD6B83509AF /* AliRTCSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliRTCSdk.framework; path = AliModule/Classes/Ali/AliRTCSdk.framework; sourceTree = "<group>"; };
 		9D27F04677B2201BAE8FC8CDA4076FEE /* Pods-AliModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliModule_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DFAE26983077DDF1A1BAA887C9BEA2E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		9E251D29B1B57D4331C05FD8753D2EBE /* AliModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AliModule.modulemap; sourceTree = "<group>"; };
 		9E3267BC6EF36D397BD6BC867A2A9B6E /* Pods-AliModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliModule_Tests-Info.plist"; sourceTree = "<group>"; };
 		9F6C0C4B5E6B39F9B90630F3130F8D6B /* Pods-AliModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliModule_Example-Info.plist"; sourceTree = "<group>"; };
-		9FDF38515B9E15F99675F44FED4E5CD3 /* UIViewController+RTCSampleAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RTCSampleAlert.m"; sourceTree = "<group>"; };
 		A01D53B54D050927DDC51163E466F0C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A6B367F229EF54E340B94E3394574FE7 /* AliModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliModule-prefix.pch"; sourceTree = "<group>"; };
+		A21A07B19678BE56314022D989D4BAA8 /* ABSUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABSUtil.h; sourceTree = "<group>"; };
+		A569D1E6742275C776B594060AB60238 /* UTDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTDevice.h; sourceTree = "<group>"; };
+		A69096BF4C3B37836239BD1D0675FE2E /* UTHitBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTHitBuilder.h; sourceTree = "<group>"; };
 		A6D8DFCD94A013B26132DBE37CEA0D84 /* Pods-AliModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AliModule_Tests.modulemap"; sourceTree = "<group>"; };
-		A74D4AF83780878AE22A4C10D632411F /* UTICrashCaughtListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTICrashCaughtListener.h; sourceTree = "<group>"; };
-		AB2297869EE0A343F76B0F61C73A3AC8 /* AppMonitorDimensionValueSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorDimensionValueSet.h; sourceTree = "<group>"; };
+		A799A5ACE41AA56BFE86C6AD4DC5B205 /* AppMonitorTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorTable.h; sourceTree = "<group>"; };
+		A9F838F9AE695F30EB584396B5F04D42 /* AidProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AidProtocol.h; sourceTree = "<group>"; };
 		AD0B63F3988893A8612B217C35D1710F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
-		AEF15029AC562C9ED9F1449C7034323F /* UT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UT.h; sourceTree = "<group>"; };
-		AF2C78562E824D2BF7C0D897A1DAAE43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		B829CABFB71CDB7E83B205575DBE86A8 /* UTIRequestAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTIRequestAuthentication.h; sourceTree = "<group>"; };
-		B8C6BB4E7AB3FC9AC8A83FF6B552A3E4 /* AliModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AliModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE507862268888E2D0CB448C4BE0AA25 /* AppMonitorDimension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorDimension.h; sourceTree = "<group>"; };
+		AE9415D80FABBF9CFFD0D756775E6A37 /* RTCSampleChatViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCSampleChatViewController.h; sourceTree = "<group>"; };
+		B4C5B5A587AA24A85E0A4679EBD64499 /* EMASOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMASOptions.h; sourceTree = "<group>"; };
+		B4CBDE5E06810822CAAA4AB973DC7B57 /* AppMonitorMeasureSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorMeasureSet.h; sourceTree = "<group>"; };
 		B962B2D0546169B74B4AAFBE9EB7A285 /* Pods-AliModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AliModule_Example.modulemap"; sourceTree = "<group>"; };
-		BB5EE8B90E3C0C1CB4A458291D06E738 /* AlicloudTrackerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlicloudTrackerManager.h; sourceTree = "<group>"; };
-		BC2A17A29C7F6CF281B3C76C2CC016EC /* AliModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AliModule-dummy.m"; sourceTree = "<group>"; };
-		C5A87EFDBA60AB9C02E95D5EC9B578E4 /* CloudPushSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudPushSDK.h; sourceTree = "<group>"; };
-		C6107088CC06CD50232278CDEA9F75E2 /* UTDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTDevice.h; sourceTree = "<group>"; };
 		C6307245FA31E2374112B224B2D01270 /* Pods-AliModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C678F2723B11599238455668AEC0BB67 /* Pods-AliModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CDE451CDD1A6C691BB7034A42AA16083 /* AlicloudUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlicloudUtils.framework; path = AliModule/Classes/Ali/AlicloudUtils.framework; sourceTree = "<group>"; };
+		C79AAD48A570180C6C3832F4107F30B5 /* AlicloudTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlicloudTracker.h; sourceTree = "<group>"; };
+		C93356A903096DB5CF955ED8117A47F2 /* EMASSecurityModeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMASSecurityModeManager.h; sourceTree = "<group>"; };
+		CAC80F5052554A92A694E09EAB7DAF97 /* EMASBeaconService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMASBeaconService.h; sourceTree = "<group>"; };
+		CD890A8F4AEBE264D35E70083358A8DB /* AliModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliModule-umbrella.h"; sourceTree = "<group>"; };
+		D1959AE20E06AC6C0C55C710D38CA5CE /* AliModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliModule.xcconfig; sourceTree = "<group>"; };
+		D31F5C93127523DAB09820FEE53CF06A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D5E26DA8C8C3823E6A1BA55718E21F76 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		DB4A94D8C3378C9B6DBD30716B610431 /* Pods-AliModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DD8871E603BF2C20F05DDF80218A2E11 /* AppMonitorMeasureValueSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorMeasureValueSet.h; sourceTree = "<group>"; };
-		DE5AB7ED020044D2878DB0F08CEA3DF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E0CB650F62A61059BDEA3B9C1D09EF5E /* EMASSecurityModeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMASSecurityModeManager.h; sourceTree = "<group>"; };
-		E1746E9B94B977275380498E6384D1FB /* UtilLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UtilLog.h; sourceTree = "<group>"; };
-		E1C87EDD5EDF6406C6F8509955B1DBC8 /* AppMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitor.h; sourceTree = "<group>"; };
-		E641F4B13801A31DE8A45A491819D8CB /* AlicloudTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlicloudTracker.h; sourceTree = "<group>"; };
-		EF8E274131DE17C65D4F459F933DC520 /* AliModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliModule.xcconfig; sourceTree = "<group>"; };
-		F1737FA3E9D7E82799CA50F4B2A88430 /* AppMonitorCounter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorCounter.h; sourceTree = "<group>"; };
+		DC0DC4B40C1598EA69399ECE3DDA8FD3 /* CCPSysMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CCPSysMessage.h; sourceTree = "<group>"; };
+		DD8997845140B0BF991B8D001EB6B93E /* UtilLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UtilLog.h; sourceTree = "<group>"; };
+		DE6622695003D21B2EC44DDF8C6E43A5 /* AppMonitorMeasure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorMeasure.h; sourceTree = "<group>"; };
+		DEDB15C3D6F82AE3E45CAF416602C4D9 /* AliModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AliModule-Info.plist"; sourceTree = "<group>"; };
+		E71B49D4D76A9CA7F85D0CC6765C8FAF /* UTICrashCaughtListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTICrashCaughtListener.h; sourceTree = "<group>"; };
+		E7CD76CB87FFF53F3542B996B906A160 /* AppMonitorStat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorStat.h; sourceTree = "<group>"; };
+		EBAE966A54DDB5E7B812BE174F9193E1 /* AlicloudIPv6Adapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlicloudIPv6Adapter.h; sourceTree = "<group>"; };
 		F1CD52F97D98DF4E01BBFE02C2DF558D /* Pods-AliModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F2A0B8B3E905FD5F84E858A1330FA896 /* UTSecuritySDKRequestAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTSecuritySDKRequestAuthentication.h; sourceTree = "<group>"; };
-		F831D01B47EF5AEAD6B042ED2FD44E75 /* AliRtcEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliRtcEngine.h; sourceTree = "<group>"; };
-		FA26F4DA7305071142D976933D62EE85 /* RTCSampleChatViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RTCSampleChatViewController.m; sourceTree = "<group>"; };
-		FC952847FBC163CCEBA570F9F1BB1CCB /* RTCSampleRemoteUserManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RTCSampleRemoteUserManager.h; sourceTree = "<group>"; };
+		F9FEAF02967283203D40DBC8674C5C28 /* AppMonitorDimensionSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppMonitorDimensionSet.h; sourceTree = "<group>"; };
+		FA0864735943BF02A190E25978605ED0 /* AliModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliModule-prefix.pch"; sourceTree = "<group>"; };
+		FA0E17F21613D5F2F4EFCA5836AC6D22 /* AlicloudTrackerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlicloudTrackerManager.h; sourceTree = "<group>"; };
+		FA407E74FD311A5553B7F373A8AD5FB0 /* MPGerneralDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPGerneralDefinition.h; sourceTree = "<group>"; };
 		FED2601384E60C39C848BDE97F477815 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -245,20 +246,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		073800C04FE9963E6E40422F88D5D7B2 /* UTMini.framework */ = {
+		0B384747E34DBDF63F2CEFD3DEA99A0A /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				AC8692908863961345A381E88D409FC2 /* Headers */,
-			);
-			name = UTMini.framework;
-			path = UTMini.framework;
-			sourceTree = "<group>";
-		};
-		0A4326369513E0A5DCBD13CC92D93079 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				9B8C3B68C1B16DE0B1C516A662EA7DEC /* AidProtocol.h */,
-				C6107088CC06CD50232278CDEA9F75E2 /* UTDevice.h */,
+				A9F838F9AE695F30EB584396B5F04D42 /* AidProtocol.h */,
+				A569D1E6742275C776B594060AB60238 /* UTDevice.h */,
 			);
 			name = Headers;
 			path = Headers;
@@ -280,15 +272,6 @@
 			path = "Target Support Files/Pods-AliModule_Tests";
 			sourceTree = "<group>";
 		};
-		26A83B37743BD88255E8AC6703E957AF /* CloudPushSDK.framework */ = {
-			isa = PBXGroup;
-			children = (
-				C64484075F036BFB1200AC9D218991DD /* Headers */,
-			);
-			name = CloudPushSDK.framework;
-			path = CloudPushSDK.framework;
-			sourceTree = "<group>";
-		};
 		281D9D931355FCB2BE386248C256A4B4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,13 +290,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		3E694EA7E53E81660A92108A2D490AF1 /* AliRTCSdk.framework */ = {
+		2986307E67D07E56A0F4390BB6101C46 /* Ali */ = {
 			isa = PBXGroup;
 			children = (
-				5C6392F4B5A69542F8AFBE2895D40619 /* Headers */,
+				D33A2295BF0B451EE1FA62A1CE434BF6 /* AlicloudUtils.framework */,
+				6E5F086086741DFAFAC0B058CC3A2A34 /* AliRTCSdk.framework */,
+				3C865029E2842E4EAD114AC891934E35 /* CloudPushSDK.framework */,
+				7A4DAF53D66CE58E0BEB65FD159A9B47 /* UTDID.framework */,
+				C920B0D24A69A68DE394B39589D560CA /* UTMini.framework */,
 			);
-			name = AliRTCSdk.framework;
-			path = AliRTCSdk.framework;
+			name = Ali;
+			path = AliModule/Classes/Ali;
+			sourceTree = "<group>";
+		};
+		34D5AAA80F20423B52D12B20E5421C39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BCA8BBD0BCBD9F91ACFCCD6B83509AF /* AliRTCSdk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C865029E2842E4EAD114AC891934E35 /* CloudPushSDK.framework */ = {
+			isa = PBXGroup;
+			children = (
+				BE37C2273E273A567030E7813973B7CB /* Headers */,
+			);
+			name = CloudPushSDK.framework;
+			path = CloudPushSDK.framework;
 			sourceTree = "<group>";
 		};
 		48A7B7CE1BC11DFAA128559A9ADA8564 /* Frameworks */ = {
@@ -324,24 +328,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5576943B07F8776B9AC794EC3D398DDB /* Frameworks */ = {
+		4C71F15995E4B5CCA603397EEC7F71E8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CDE451CDD1A6C691BB7034A42AA16083 /* AlicloudUtils.framework */,
-				46A6560B169EF1482A0B8414252921A6 /* CloudPushSDK.framework */,
-				475CE61F934BCA4998CD70B8DBA974E0 /* UTMini.framework */,
+				96954FC1E508C39584773C3D12385257 /* AliModule.podspec */,
+				18D163CF7B559FC2967D5E358382282F /* LICENSE */,
+				D31F5C93127523DAB09820FEE53CF06A /* README.md */,
 			);
-			name = Frameworks;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		5C6392F4B5A69542F8AFBE2895D40619 /* Headers */ = {
+		536D9C39189775BAE53C90276D02FCBF /* AliRTC */ = {
 			isa = PBXGroup;
 			children = (
-				F831D01B47EF5AEAD6B042ED2FD44E75 /* AliRtcEngine.h */,
-				31B82A43D57780419F4F933CDFB9ED1D /* AliRTCSdk.h */,
+				34D5AAA80F20423B52D12B20E5421C39 /* Frameworks */,
 			);
-			name = Headers;
-			path = Headers;
+			name = AliRTC;
 			sourceTree = "<group>";
 		};
 		6688208B431EBFA1862A5341DE092841 /* Products */ = {
@@ -354,12 +356,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		75D7CC1971254EF4EFD3E56493EC8B91 /* AliPush */ = {
+		6E5F086086741DFAFAC0B058CC3A2A34 /* AliRTCSdk.framework */ = {
 			isa = PBXGroup;
 			children = (
-				5576943B07F8776B9AC794EC3D398DDB /* Frameworks */,
+				C397750BA1BD83018A2007220796BD45 /* Headers */,
 			);
-			name = AliPush;
+			name = AliRTCSdk.framework;
+			path = AliRTCSdk.framework;
 			sourceTree = "<group>";
 		};
 		794C32CBFABE0C619435B08B733041A5 /* Targets Support Files */ = {
@@ -371,152 +374,190 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		79D5DE438D92445B8FDFD888BEAD2015 /* Frameworks */ = {
+		7A4DAF53D66CE58E0BEB65FD159A9B47 /* UTDID.framework */ = {
 			isa = PBXGroup;
 			children = (
-				61471CCD7618DEFBF454A5AC2325B6B2 /* AliRTCSdk.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8E52C2B84DF309C389AD47D6591CC4A6 /* UTDID.framework */ = {
-			isa = PBXGroup;
-			children = (
-				0A4326369513E0A5DCBD13CC92D93079 /* Headers */,
+				0B384747E34DBDF63F2CEFD3DEA99A0A /* Headers */,
 			);
 			name = UTDID.framework;
 			path = UTDID.framework;
 			sourceTree = "<group>";
 		};
-		9DFE9EC347A8DC0C46A1B5257105434C /* Pod */ = {
+		83428EECB0F075DE3E047A21418B481C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B8C6BB4E7AB3FC9AC8A83FF6B552A3E4 /* AliModule.podspec */,
-				DE5AB7ED020044D2878DB0F08CEA3DF6 /* LICENSE */,
-				AF2C78562E824D2BF7C0D897A1DAAE43 /* README.md */,
+				32C96A39315B0531DBC02F46F2768126 /* AlicloudUtils.framework */,
+				0E353395683F285BD6915458306877DA /* CloudPushSDK.framework */,
+				985162EBA67E3B6D465EBBD77B75DF5A /* UTMini.framework */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AC8692908863961345A381E88D409FC2 /* Headers */ = {
+		90658A3FC1516EBD985CC61F95D63A00 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				E1C87EDD5EDF6406C6F8509955B1DBC8 /* AppMonitor.h */,
-				6268BBCDC348E92B206D86925D4CB83E /* AppMonitorAlarm.h */,
-				1F9D4F78D9BE28EE805DF9BE3DE49488 /* AppMonitorBase.h */,
-				F1737FA3E9D7E82799CA50F4B2A88430 /* AppMonitorCounter.h */,
-				2DC27873EBF1FB1250D07E663E7CC298 /* AppMonitorDimension.h */,
-				3502B8E8D595EB87B734A461C40F0271 /* AppMonitorDimensionSet.h */,
-				AB2297869EE0A343F76B0F61C73A3AC8 /* AppMonitorDimensionValueSet.h */,
-				62DEF7909D3758B83C64D335AB614503 /* AppMonitorMeasure.h */,
-				9B3FCA3E063CF2BE63EF27A277B59987 /* AppMonitorMeasureSet.h */,
-				25F52D3AFE35A7DD6879654BDD778D1C /* AppMonitorMeasureValue.h */,
-				DD8871E603BF2C20F05DDF80218A2E11 /* AppMonitorMeasureValueSet.h */,
-				7655D44D86EC6F5AB66B1E81088614CD /* AppMonitorStat.h */,
-				5CB5D5AE297B829C9A55C9CF958A05F1 /* AppMonitorTable.h */,
-				AEF15029AC562C9ED9F1449C7034323F /* UT.h */,
-				686A0172419A31B4B0BA09AB640827D6 /* UTAnalytics.h */,
-				91C17E45B72A5510322D3DFFD8602A55 /* UTBaseRequestAuthentication.h */,
-				380C96FBF8ECA8EBB02F3D6062239DC7 /* UTCustomHitBuilder.h */,
-				07CDAA17EFA15A340C44E78CCA9DD978 /* UTHitBuilder.h */,
-				A74D4AF83780878AE22A4C10D632411F /* UTICrashCaughtListener.h */,
-				B829CABFB71CDB7E83B205575DBE86A8 /* UTIRequestAuthentication.h */,
-				3DA8564BE97AC4127D3F6B8A37F0A075 /* UTOirginalCustomHitBuilder.h */,
-				8643F58EA64DE850B9A2420B293C01BC /* UTPageHitBuilder.h */,
-				F2A0B8B3E905FD5F84E858A1330FA896 /* UTSecuritySDKRequestAuthentication.h */,
-				5FB881A1179905B6238B2209BC0CBDE3 /* UTTracker.h */,
+				6C1E5B9973A58A63261D5E784B5C4668 /* ABSBootingProtection.h */,
+				3E41D927A3B28A25DDC4DABFBF338BCC /* ABSUncaughtExceptionHandler.h */,
+				A21A07B19678BE56314022D989D4BAA8 /* ABSUtil.h */,
+				8EEB26253A668AD5BA2B0CF4B67F1267 /* AlicloudHTTPDNSMini.h */,
+				EBAE966A54DDB5E7B812BE174F9193E1 /* AlicloudIPv6Adapter.h */,
+				439BA28C1DCEEC87E5E681ECD67EF89E /* AlicloudReachabilityManager.h */,
+				18CA68E15DDC26313EC0F0DB596E8921 /* AlicloudReport.h */,
+				C79AAD48A570180C6C3832F4107F30B5 /* AlicloudTracker.h */,
+				FA0E17F21613D5F2F4EFCA5836AC6D22 /* AlicloudTrackerManager.h */,
+				50E6A1234C292E7CB23983BB1D6FABA4 /* AlicloudUtils.h */,
+				72B61BBE56512F4A5DC34F0621CB7F54 /* AntilockBrakeSystem.h */,
+				CAC80F5052554A92A694E09EAB7DAF97 /* EMASBeaconService.h */,
+				B4C5B5A587AA24A85E0A4679EBD64499 /* EMASOptions.h */,
+				33B7FF5A9999E07F0C6E29C78D072EF8 /* EMASSecurityModeCommon.h */,
+				C93356A903096DB5CF955ED8117A47F2 /* EMASSecurityModeManager.h */,
+				4317CD61531ED69D2A8F934FB132E0EA /* EMASTools.h */,
+				DD8997845140B0BF991B8D001EB6B93E /* UtilLog.h */,
 			);
 			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
-		ADE1337B76C8703743DABC36C6CCB601 /* RTC */ = {
+		97BC5F56E9CEE7099A515C4A2E048FB4 /* RTC */ = {
 			isa = PBXGroup;
 			children = (
-				61AF0892C95ED63CC7398E568B35830B /* RTCSampleChatViewController.h */,
-				FA26F4DA7305071142D976933D62EE85 /* RTCSampleChatViewController.m */,
-				FC952847FBC163CCEBA570F9F1BB1CCB /* RTCSampleRemoteUserManager.h */,
-				73BE7A12D9EDAEA842C1C3160F98A096 /* RTCSampleRemoteUserManager.m */,
-				5300BE1334361626486CF47676E4FFD7 /* RTCSampleRemoteUserModel.h */,
-				65A10698A886F95DB2FAE62A20C2E5E1 /* RTCSampleRemoteUserModel.m */,
-				905106F6EA3ABA71B07A4011453461A8 /* UIViewController+RTCSampleAlert.h */,
-				9FDF38515B9E15F99675F44FED4E5CD3 /* UIViewController+RTCSampleAlert.m */,
+				AE9415D80FABBF9CFFD0D756775E6A37 /* RTCSampleChatViewController.h */,
+				94DD70DA687D2AE4688F0A87D4ABC793 /* RTCSampleChatViewController.m */,
+				47A3946748CD6783C0F6DE703DF96BB4 /* RTCSampleRemoteUserManager.h */,
+				8A137D4E4C38D661123293BB3A2E4EFE /* RTCSampleRemoteUserManager.m */,
+				2BF3A24B6A0006BC2B188EB2C300D6C3 /* RTCSampleRemoteUserModel.h */,
+				4215E6CCFFD80ADC76D22C393AC21193 /* RTCSampleRemoteUserModel.m */,
+				80D1CF4731BE7752225711474EC3FE57 /* UIViewController+RTCSampleAlert.h */,
+				51F1457DB6C7A594CBD3C15D801528B1 /* UIViewController+RTCSampleAlert.m */,
 			);
 			name = RTC;
 			path = AliModule/Classes/RTC;
 			sourceTree = "<group>";
 		};
-		B539FC326F9E9B2DC6015101ADCA365D /* Support Files */ = {
+		ACAE50619B9D53DF1EF2B6854F3795A4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9E251D29B1B57D4331C05FD8753D2EBE /* AliModule.modulemap */,
-				EF8E274131DE17C65D4F459F933DC520 /* AliModule.xcconfig */,
-				BC2A17A29C7F6CF281B3C76C2CC016EC /* AliModule-dummy.m */,
-				7D9E4F07A76E592EAB096B5C53FDE203 /* AliModule-Info.plist */,
-				A6B367F229EF54E340B94E3394574FE7 /* AliModule-prefix.pch */,
-				5B842205C8C35FA173B091675C301E47 /* AliModule-umbrella.h */,
+				7D929A3596302046C5ADD71F88471F2A /* AliModule.modulemap */,
+				D1959AE20E06AC6C0C55C710D38CA5CE /* AliModule.xcconfig */,
+				9710D19179084DED1A0CC55F6250F4C1 /* AliModule-dummy.m */,
+				DEDB15C3D6F82AE3E45CAF416602C4D9 /* AliModule-Info.plist */,
+				FA0864735943BF02A190E25978605ED0 /* AliModule-prefix.pch */,
+				CD890A8F4AEBE264D35E70083358A8DB /* AliModule-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AliModule";
 			sourceTree = "<group>";
 		};
-		C64484075F036BFB1200AC9D218991DD /* Headers */ = {
+		B7BD8718594445EE5F85C9CBDC1313EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				66A742A2ED4321EE82A2C2A4392CBFC9 /* CCPSysMessage.h */,
-				6A502DA0822D30BAAE8B3C72EF9CAE3C /* CloudPushCallbackResult.h */,
-				C5A87EFDBA60AB9C02E95D5EC9B578E4 /* CloudPushSDK.h */,
-				635BE35FA47AF61488CCA58B6C87E010 /* MPGerneralDefinition.h */,
+				225AA2C71D02E358244A0DA62CE0C0DC /* UTDID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE37C2273E273A567030E7813973B7CB /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DC0DC4B40C1598EA69399ECE3DDA8FD3 /* CCPSysMessage.h */,
+				024857736FF0095409BE2F9A16653C8A /* CloudPushCallbackResult.h */,
+				4BAC9DA8FA5CBF382755B0715C25A4D8 /* CloudPushSDK.h */,
+				FA407E74FD311A5553B7F373A8AD5FB0 /* MPGerneralDefinition.h */,
 			);
 			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
-		C77BC95F90344049752ED10D3AF9F51C /* AlicloudUtils.framework */ = {
+		C397750BA1BD83018A2007220796BD45 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				FEA00213AB56FD04FFC3CC744F7A1B2D /* Headers */,
+				5078BBE35DF665550F30562EDF34449A /* AliRtcEngine.h */,
+				99C0A49D7E46208FC0D1407F08AE045C /* AliRTCSdk.h */,
 			);
-			name = AlicloudUtils.framework;
-			path = AlicloudUtils.framework;
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		C801769DC2BE5771C14EB04EBA2B1AB9 /* AliModule */ = {
+			isa = PBXGroup;
+			children = (
+				F6622053D022FDEDEA222B1C12185C7C /* AliPush */,
+				536D9C39189775BAE53C90276D02FCBF /* AliRTC */,
+				B7BD8718594445EE5F85C9CBDC1313EE /* Frameworks */,
+				4C71F15995E4B5CCA603397EEC7F71E8 /* Pod */,
+				ACAE50619B9D53DF1EF2B6854F3795A4 /* Support Files */,
+			);
+			name = AliModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C920B0D24A69A68DE394B39589D560CA /* UTMini.framework */ = {
+			isa = PBXGroup;
+			children = (
+				E007D6D3B3B2FB24A2D81383C75CE916 /* Headers */,
+			);
+			name = UTMini.framework;
+			path = UTMini.framework;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				ECB731776E2735A49D63E542F6D43586 /* Development Pods */,
+				DFB2481BC58083E0E99B7D3FAE9AF89D /* Development Pods */,
 				48A7B7CE1BC11DFAA128559A9ADA8564 /* Frameworks */,
 				6688208B431EBFA1862A5341DE092841 /* Products */,
 				794C32CBFABE0C619435B08B733041A5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D6F24C1A049FC50F1774C21A14CE3F51 /* Ali */ = {
+		D33A2295BF0B451EE1FA62A1CE434BF6 /* AlicloudUtils.framework */ = {
 			isa = PBXGroup;
 			children = (
-				C77BC95F90344049752ED10D3AF9F51C /* AlicloudUtils.framework */,
-				3E694EA7E53E81660A92108A2D490AF1 /* AliRTCSdk.framework */,
-				26A83B37743BD88255E8AC6703E957AF /* CloudPushSDK.framework */,
-				8E52C2B84DF309C389AD47D6591CC4A6 /* UTDID.framework */,
-				073800C04FE9963E6E40422F88D5D7B2 /* UTMini.framework */,
+				90658A3FC1516EBD985CC61F95D63A00 /* Headers */,
 			);
-			name = Ali;
-			path = AliModule/Classes/Ali;
+			name = AlicloudUtils.framework;
+			path = AlicloudUtils.framework;
 			sourceTree = "<group>";
 		};
-		DE7395138352853B6C19809ACC24E670 /* AliModule */ = {
+		DFB2481BC58083E0E99B7D3FAE9AF89D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D6F24C1A049FC50F1774C21A14CE3F51 /* Ali */,
-				75D7CC1971254EF4EFD3E56493EC8B91 /* AliPush */,
-				EE3C6ABE79AB06C7D48C7A5D90336611 /* AliRTC */,
-				9DFE9EC347A8DC0C46A1B5257105434C /* Pod */,
-				ADE1337B76C8703743DABC36C6CCB601 /* RTC */,
-				B539FC326F9E9B2DC6015101ADCA365D /* Support Files */,
+				C801769DC2BE5771C14EB04EBA2B1AB9 /* AliModule */,
 			);
-			name = AliModule;
-			path = ../..;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E007D6D3B3B2FB24A2D81383C75CE916 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				5605A45A3385570BD8CFB6A58DCA2A5F /* AppMonitor.h */,
+				61A6693A05F95E7C17E965BED1D30CAB /* AppMonitorAlarm.h */,
+				18C6C3165D49069E6B15CB0FA9007089 /* AppMonitorBase.h */,
+				8D7CEA293E70BE5493F930B85D348961 /* AppMonitorCounter.h */,
+				AE507862268888E2D0CB448C4BE0AA25 /* AppMonitorDimension.h */,
+				F9FEAF02967283203D40DBC8674C5C28 /* AppMonitorDimensionSet.h */,
+				6478D0CE79163C975B39BE96104DD72D /* AppMonitorDimensionValueSet.h */,
+				DE6622695003D21B2EC44DDF8C6E43A5 /* AppMonitorMeasure.h */,
+				B4CBDE5E06810822CAAA4AB973DC7B57 /* AppMonitorMeasureSet.h */,
+				28662C990EFEAB19CC3E45DF297BA1A1 /* AppMonitorMeasureValue.h */,
+				122B934D9AC27B6E8A8444FB2F8F38D1 /* AppMonitorMeasureValueSet.h */,
+				E7CD76CB87FFF53F3542B996B906A160 /* AppMonitorStat.h */,
+				A799A5ACE41AA56BFE86C6AD4DC5B205 /* AppMonitorTable.h */,
+				048EAF746D13BD4D43A54FF5228704AA /* UT.h */,
+				3FBEAC2A378B84D707C0978B9BF32E85 /* UTAnalytics.h */,
+				30CF3F602CF9D478CE52E72227C6882A /* UTBaseRequestAuthentication.h */,
+				7F66874762EAE2E5FA664A4AE83C1D0A /* UTCustomHitBuilder.h */,
+				A69096BF4C3B37836239BD1D0675FE2E /* UTHitBuilder.h */,
+				E71B49D4D76A9CA7F85D0CC6765C8FAF /* UTICrashCaughtListener.h */,
+				4A140793AFADEFF3BAFFAD1A265A9EDB /* UTIRequestAuthentication.h */,
+				3D0F0F4BDA1D438D8A0B43DB464C77A1 /* UTOirginalCustomHitBuilder.h */,
+				795CDC81DD60D19EC17E7D3BDA9465D6 /* UTPageHitBuilder.h */,
+				30ED40003EC0FCFF8CFD67AB73C4C6B5 /* UTSecuritySDKRequestAuthentication.h */,
+				677A5197BE121EACDD3299358EE914FE /* UTTracker.h */,
+			);
+			name = Headers;
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		E5D2D37533F7A3970156A131CE1EFAFB /* Pods-AliModule_Example */ = {
@@ -536,45 +577,14 @@
 			path = "Target Support Files/Pods-AliModule_Example";
 			sourceTree = "<group>";
 		};
-		ECB731776E2735A49D63E542F6D43586 /* Development Pods */ = {
+		F6622053D022FDEDEA222B1C12185C7C /* AliPush */ = {
 			isa = PBXGroup;
 			children = (
-				DE7395138352853B6C19809ACC24E670 /* AliModule */,
+				2986307E67D07E56A0F4390BB6101C46 /* Ali */,
+				83428EECB0F075DE3E047A21418B481C /* Frameworks */,
+				97BC5F56E9CEE7099A515C4A2E048FB4 /* RTC */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		EE3C6ABE79AB06C7D48C7A5D90336611 /* AliRTC */ = {
-			isa = PBXGroup;
-			children = (
-				79D5DE438D92445B8FDFD888BEAD2015 /* Frameworks */,
-			);
-			name = AliRTC;
-			sourceTree = "<group>";
-		};
-		FEA00213AB56FD04FFC3CC744F7A1B2D /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				5BBBCA4796373D63D731765A240E90FE /* ABSBootingProtection.h */,
-				4D794DA153CC66321410D5A612D28B6F /* ABSUncaughtExceptionHandler.h */,
-				5E2391D44D30C1DE45171E07DB9E2679 /* ABSUtil.h */,
-				6DF17D920B4FC92EC8DB682417336FD2 /* AlicloudHTTPDNSMini.h */,
-				72BAA50BD8DA2CA23A26A87BC4AD099A /* AlicloudIPv6Adapter.h */,
-				563DD602D36670E06CF6D2BE9E174DAF /* AlicloudReachabilityManager.h */,
-				9CBBE666B3B91188A3E79476E38C2451 /* AlicloudReport.h */,
-				E641F4B13801A31DE8A45A491819D8CB /* AlicloudTracker.h */,
-				BB5EE8B90E3C0C1CB4A458291D06E738 /* AlicloudTrackerManager.h */,
-				73D5E269ECACB5EAA4D515AFD31A26A1 /* AlicloudUtils.h */,
-				655FDDCAF58409A23E2021B098972F00 /* AntilockBrakeSystem.h */,
-				6B854983061A75AE4CE17FA7E29F5F99 /* EMASBeaconService.h */,
-				86AC1B815DC4DCBC1E385031E02C1069 /* EMASOptions.h */,
-				04B52ABE78678F7A9213DE5654DC63D3 /* EMASSecurityModeCommon.h */,
-				E0CB650F62A61059BDEA3B9C1D09EF5E /* EMASSecurityModeManager.h */,
-				8E488802689AFB9FBC94588705C8889F /* EMASTools.h */,
-				E1746E9B94B977275380498E6384D1FB /* UtilLog.h */,
-			);
-			name = Headers;
-			path = Headers;
+			name = AliPush;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -915,7 +925,7 @@
 		};
 		339651ADEB9F0493B5A9BACC66A92102 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF8E274131DE17C65D4F459F933DC520 /* AliModule.xcconfig */;
+			baseConfigurationReference = D1959AE20E06AC6C0C55C710D38CA5CE /* AliModule.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1112,7 +1122,7 @@
 		};
 		F3D86F282878F8DCFDCD496EF6920980 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF8E274131DE17C65D4F459F933DC520 /* AliModule.xcconfig */;
+			baseConfigurationReference = D1959AE20E06AC6C0C55C710D38CA5CE /* AliModule.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
